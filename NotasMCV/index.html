@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>¿Cuánto necesito para aprobar el año?</title>
+		<link href="style.css" media="screen" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Calcula qué nota necesitas para aprobar una materia</h1>
+		
+		<h2>¿Cuántos periodos se cursan en tu escuela? (Máximo 10)</h2>
+		<input type="text" placeholder="Periodos" id="periodos"/>
+		
+		<h2>¿Qué periodos has terminado?</h2>
+		<input type="text" placeholder="Periodo actual" id="periodo_actual"/>
+		
+		<h2>¿Cuál es la nota mínima para aprobar en tu escuela?</h2>
+		<input type="text" placeholder="Nota mínima" id="nota_min"/>
+		
+		<h2>¿Cuál es la nota máxima con la que se puede pasar en tu escuela?</h2>
+		<input type="text" placeholder="Nota máxima" id="nota_max"/>
+		
+		
+		<button id="input">Ingresar notas</button>
+		<button id="refresh">Limpiar</button>
+		
+		<div id="inpperiodos"><br><br>
+		</div>
+		
+		<button id="givers" style="visibility: hidden;">Calcular notas</button>
+		
+		<div id="resultados">
+		</div>
+		
+		<script src="index.js"></script>
+	</body>
+</html>
